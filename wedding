@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+        h1{
+            text-align:center;
+            background-color: rgb(186, 77, 186);
+            color: white;
+            padding: 10px;
+        }
+        #mountain{
+            width: 70%;
+        }    
+        .info{
+            width: 70%;
+        }
+        #event-details{
+            margin-left: 75px;
+            margin-bottom: 2px;
+            text-decoration: underline;
+            
+        }
+        .details-table{
+            float: left;
+            margin-left: 50px;
+            margin-bottom: 50px;
+        }
+        .information{
+            position: absolute;
+            right: 0px;
+            width: 30%;
+            margin-left: 10px;
+            padding: -5px;
+            background-color:rgb(186, 77, 186);
+            color: white;
+        }
+        #footer{
+            background-color: rgb(186, 77, 186);
+            clear: both;
+            padding: 10px;
+    
+        }
+        </style>
+    </head>
+    <body>
+        
+        <h1>Jim & Andrea's Wedding</h1>
+        <div class="information"><h2>Information</h2>
+        <ul>
+            <li>Our Story
+            <li>Schedule
+            <li>Venue Details
+            <li>Wedding Party
+            <li>Registry
+            <li>Coronavirus Updates</li>
+        </ul></div>
+        <img id="mountain" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Monasterio_Khor_Virap%2C_Armenia%2C_2016-10-01%2C_DD_25.jpg/2880px-Monasterio_Khor_Virap%2C_Armenia%2C_2016-10-01%2C_DD_25.jpg">
+        
+        
+        <div class="info"><p>You our invited to attend our wedding which will be bussiness casual in dress.  The best way to describe the event is an family reunion with a bueatiful lady in a white dress. That being said it is Ohio, so remeber the weather could be 90 degrees or 40 degrees. 
+        </p>
+        <p>We hope you come an enjoy the day with us.  There will be board games and yard games.  The venue also offers many activities, for a complete list check the venue tab.</p></div>
+        <h2 id="event-details">Event Details</h2>
+        <div class="details-table"><table>
+            <thead>
+                <tr>
+                <td> </td>
+                <td> </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Location</td>
+                <td>Wingfoot State Park</td>
+                </tr>
+                <tr>
+                <td>date</td>
+                <td>June 21, 2020</td>
+                </tr>
+                <tr>
+                <td>Time</td>
+                <td>11:30am - dusk</td>
+                </tr>
+                
+            </tbody>
+        </table></div>
+        <p id="footer"> Contact us at (330) 507-6556 or landis.andrea.m@gmail.com if you have any questions. Thank you
+        </p>
+    </body>
+</html>
